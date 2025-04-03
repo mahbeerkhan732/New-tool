@@ -6,7 +6,6 @@ from concurrent.futures import ThreadPoolExecutor
 from functools import lru_cache
 import time
 import configparser
-import plotly.express as px
 from streamlit_tags import st_tags
 
 # Configuration
