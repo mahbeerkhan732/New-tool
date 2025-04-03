@@ -6,7 +6,6 @@ from concurrent.futures import ThreadPoolExecutor
 from functools import lru_cache
 import time
 import configparser
-from streamlit_tags import st_tags
 
 # Configuration
 config = configparser.ConfigParser()
