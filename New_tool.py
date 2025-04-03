@@ -19,7 +19,7 @@ config = configparser.ConfigParser()
 config.read('config.ini')
 
 # YouTube API Configuration
-API_KEY = config.get('YOUTUBE', 'API_KEY', fallback='AIzaSyBA-WdCo1FfkfQ1G5k5M3AFTV0x-kq9IlU')
+API_KEY = config.get('YOUTUBE', 'AIzaSyBA-WdCo1FfkfQ1G5k5M3AFTV0x-kq9Il', fallback='AIzaSyBA-WdCo1FfkfQ1G5k5M3AFTV0x-kq9IlU')
 YOUTUBE_SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 YOUTUBE_VIDEO_URL = "https://www.googleapis.com/youtube/v3/videos"
 YOUTUBE_CHANNEL_URL = "https://www.googleapis.com/youtube/v3/channels"
